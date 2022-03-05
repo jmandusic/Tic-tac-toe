@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 60px;
+  width: 85%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.label {
+  margin-top: 30px;
+}
+
+.input {
+  margin-top: 15px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.button {
+  margin-top: 25px;
+  margin-bottom: 16px;
+  padding: 10px;
+  width: 80px;
+  border: 2px solid #999999;
+  border-radius: 10px;
+  background-color: #999999;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: lightgrey;
+  background-color: lightgrey;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 36px;
+  text-align: center;
+}
+
+.scoreboard {
+  margin-top: 32px;
+}
+
+.mainboard {
+  display: grid;
+  grid-template-areas:
+    ". . . "
+    ". . . "
+    ". . .";
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.winCell {
+  background-color: lawngreen;
+}
